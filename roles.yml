@@ -1,4 +1,4 @@
--name: demo on the roles
+- name: demo on the roles
 hosts: all
 roles:
-  -jayadeep
+  - jayadeep
