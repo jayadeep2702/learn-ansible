@@ -31,5 +31,7 @@
 
 - name: demo for the roles
   hosts: all
+  vars:
+    URL_jayadeep: akhil.example.com
   roles:
     - jayadeep
