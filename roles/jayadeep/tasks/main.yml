@@ -5,3 +5,7 @@
 - name: print roles
   ansible.builtin.debug:
     msg: URL - {{ URL }}
+
+- name: print roles jayadeep
+  ansible.builtin.debug:
+    msg: URL_jayadeep - {{ URL_jayadeep }}
