@@ -1,4 +1,4 @@
-- name: pront hello world
+- name: print hello world
   ansible.builtin.debug:
     msg: hello world
 
