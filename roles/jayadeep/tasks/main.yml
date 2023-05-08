@@ -1,3 +1,7 @@
 - name: pront hello world
   ansible.builtin.debug:
     msg: hello world
+
+- name: print roles
+  ansible.builtin.debug:
+    msg: URL - {{ URL }}
