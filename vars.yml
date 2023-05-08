@@ -20,7 +20,7 @@
 
 - name: demo vars from a file
   hosts: all
-  vars:
+  vars_files:
     jayadeepvars.yml
   tasks:
     - name: print vars from file
